@@ -1,0 +1,89 @@
+body {
+    background-color: #35363b;
+    background-image: url(./bingobg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: darkred;
+}
+
+#wrapper h1 {
+    margin-left: 5%;
+    color: #773709;
+}
+
+header {
+    padding-bottom: 1px;
+}
+
+header span {
+    right: 0;
+    bottom: 0;
+    padding: 0 5px 0;
+    background-color: crimson;
+    color: #faeecc;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #faeecc;
+}
+
+div #wrapper {
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-top: 3%;
+}
+
+table {
+    border-style: solid;
+    border-color: #aaaaaa;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-spacing: 0px;
+    margin-bottom: 1.5em;
+    margin-top: 0.0em;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+tr {
+    border-style: inset;
+    border-color: #aaaaaa;
+    border-width: 1px;
+    width: 90%;
+}
+
+th, td {
+    border-style: outset;
+    border-color: #aaaaaa;
+    border-width: 3px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+#photo-credit {
+    float: left;
+}
+
+#e-begging {
+    float: right;
+}
+
+.checked-off {
+    background-color: lightgreen;
+}
+
+td {
+    cursor: pointer;
+}

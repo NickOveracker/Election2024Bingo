@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8" />
+    <title>Tokyo 2020 Bingo!</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="./bingo.js"></script>
+</head>
+
+<body>
+    <header>
+        <span id="photo-credit">Photo by me.</span>
+        <span id="e-begging"><a href="https://ko-fi.com/twentynine">Buy me coffee!</a></span>
+    </header>
+    <div id="wrapper-bg">
+        <div id="wrapper">
+        <main>
+            <form action="#" onsubmit="updateCard(); return false;">
+
+                <div>
+                    <label for="username-input">Generate a Bingo card with your Twitter @handle (not stored or shared with anyone)</label>
+                    <br />
+                    <input id="username-input" class="username-field" type="text" placeholder="@github" />
+                    <input type="submit" class="input-button" value="OK" />
+                    <br />
+                    <input id="interesting-mode-input" type="checkbox" checked />
+                    <label for="interesting-mode-input">Activate not-boring mode.</label>
+                </div>
+            </form>
+      
+            <div>
+                <p>Is a cell not checked off that should be?
+                    <a href="https://twitter.com/intent/tweet?screen_name=nick_overacker&ref_src=twsrc%5Etfw"
+                       class="twitter-mention-button"
+                       data-show-count="false">Tweet to @nick_overacker
+                    </a>
+                    <br/>
+                    Credit for the idea goes to <a href="https://twitter.com/jamesajack/status/1406946332531585030">@jamesajack</a>
+                </p>
+                <table id="bingotable"></table>
+                <p><span style="font-weight: bold">Update:</span> "Spectator cluster" has been replaced with "Russian Olympic Committee (ROC) Infection".</p>
+            </div>
+        </main>
+        </div>
+    </div>
+</body></html>
